@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.csproj", "{77E72469-4C3B-404F-8271-F28B1CF4ED50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Backend", "Backend\Backend.csproj", "{77E72469-4C3B-404F-8271-F28B1CF4ED50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioWebApp", "DesafioWebApp\DesafioWebApp.csproj", "{13E29D1E-29B4-4294-9653-FBB183E92E4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{77E72469-4C3B-404F-8271-F28B1CF4ED50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77E72469-4C3B-404F-8271-F28B1CF4ED50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77E72469-4C3B-404F-8271-F28B1CF4ED50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E29D1E-29B4-4294-9653-FBB183E92E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E29D1E-29B4-4294-9653-FBB183E92E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E29D1E-29B4-4294-9653-FBB183E92E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E29D1E-29B4-4294-9653-FBB183E92E4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

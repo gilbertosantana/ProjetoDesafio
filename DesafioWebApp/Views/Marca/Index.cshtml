@@ -1,0 +1,25 @@
+﻿
+@model IEnumerable<Backend.Marca>
+@{
+
+}
+
+<h1>Marcas</h1>
+
+<table class="table table-responsive">
+    <tr>
+        <th>Id</th>
+        <th>Nome</th>
+        <th></th>
+    </tr>
+    @foreach(var marca in Model)
+    {
+        <tr>
+            <td>@marca.Id</td>
+            <td>@marca.Nome</td>
+            <td>@Html.ActionLink("Editar", "Edit", new { id = marca.Id })
+                @Html.ActionLink("Excluir", "Delete", new { id = marca.Id }, new { onclick = "return confirm('Deseja realmente excluir?');" })
+            </td> 
+        </tr>
+    }
+</table>

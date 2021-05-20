@@ -11,5 +11,9 @@ namespace Backend
         public int Id { get; set; }
         public string Nome { get; set; }
 
+        public virtual ICollection<Carro> Carro { get; set; }
+
+        public virtual ICollection<Moto> Moto { get; set; }
+
     }
 }

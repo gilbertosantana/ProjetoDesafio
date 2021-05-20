@@ -41,6 +41,10 @@ namespace Backend.Maps
 
             builder.HasIndex(x => x.Placa)
                 .IsUnique();
+
+            builder.HasOne(x => x.Marca).
+                WithMany(x => x.Moto)
+                .OnDelete(DeleteBehavior.SetNull);
         }
     }
 }

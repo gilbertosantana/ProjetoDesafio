@@ -29,5 +29,9 @@ namespace Backend
         public string Cor { get; set; }
 
         public string Placa { get; set; }
+
+        public int MarcaId { get; set; }
+
+        public virtual Marca Marca { get; set; }
     }
 }
